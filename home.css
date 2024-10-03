@@ -1,0 +1,97 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;}  /* display these tags as block elements */
+
+body {
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    margin: 0px;
+    background: url("images/dark-wood.jpg"); 
+}
+
+.wrapper {
+    width: 940px;
+    margin: 20px auto;    /* 20px on top/bottom and equal margin for left/right */ 
+    background-color: #fff;
+    border: 2px solid yellow;
+}
+
+/* header */
+nav li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav, footer {
+    clear:both;
+    background-color: #aca8a8;
+    color: white;
+    height: 30px;
+}
+
+nav ul {
+    margin-top: -6px;
+}
+
+nav li a {color: white}
+
+nav li a:hover, .current {
+    color: blue;
+}
+
+a { text-decoration: none; }
+
+/* main section */
+.courses {
+    float: left;
+    width: 659px;
+    border-right: 1px solid green;
+}
+
+figure {
+    float:left;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid red;
+}
+.courses article {
+    overflow: auto; 
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 80%;
+}
+
+h2, h3 {
+    font-weight: normal;
+    font-family: 'Lobster', cursive;
+}
+
+h3 {
+    color: blue;
+}
+
+<iframe src="home.html" title="Table" float: right; margin-right: 30px;></iframe>
+/* sidebar */
+aside {
+    width: 230px;
+    float: left;
+    padding-left: 20px;
+}
+
+aside article a {
+    display: block; /*change <a> tag(inline element) to a block element */
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+aside article a:hover { color: yellow; }
+
+.contact { padding-top: 30px; }
+
+/* footer */
+footer {
+    font-size: 80%;
+    padding: 7px 0px 0px 20px;
+}
